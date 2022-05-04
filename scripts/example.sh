@@ -27,7 +27,7 @@ barge(){
 	printf "%s" "$nbar" # print nbar
 }
 
-trap "tput cnorm; exit" INT TERM # show cursor when script exits
+trap "tput cnorm; exit" INT TERM # show cursor when script is killed because you got bored
 tput civis # hide cursor during script execution
 
 printf "%s\n" "Doing nothing..."
@@ -42,3 +42,4 @@ while [ $i -lt 101 ]; do # while we are less than 100% complete...
 done
 
 printf "\n%s\n" "Nothing complete!"
+tput cnorm # show cursor again
