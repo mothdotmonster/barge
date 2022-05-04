@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# barge - display progress bars in the shell
+# barge v0.1.0 - display progress bars in the shell
 
 # USAGE: barge.sh [length of bar] [percentage filled]
 

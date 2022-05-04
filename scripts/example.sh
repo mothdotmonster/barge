@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# barge v0.1.0 example script, feel free to copy and paste :)
+
 barge(){
 	pchr="#" # positive character
 	nchr="." # negative character
